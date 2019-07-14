@@ -22,7 +22,6 @@ public class ProductService extends SQLiteHelper implements IAbstractService<Pro
         this.mContext = context;
     }
 
-
     @Override
     public List<Product> findAll(int page, int limit) {
         return null;
