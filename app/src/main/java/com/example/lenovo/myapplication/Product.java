@@ -62,22 +62,22 @@ public class Product extends AbstractEntity{
     }
 
     @Override
-    public Date getCreatedDate() {
+    public String getCreatedDate() {
         return super.getCreatedDate();
     }
 
     @Override
-    public void setCreatedDate(Date createdDate) {
+    public void setCreatedDate(String createdDate) {
         super.setCreatedDate(createdDate);
     }
 
     @Override
-    public Date getUpdatedDate() {
+    public String getUpdatedDate() {
         return super.getUpdatedDate();
     }
 
     @Override
-    public void setUpdatedDate(Date updatedDate) {
+    public void setUpdatedDate(String updatedDate) {
         super.setUpdatedDate(updatedDate);
     }
 

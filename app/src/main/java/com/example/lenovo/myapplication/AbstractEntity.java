@@ -14,8 +14,8 @@ public abstract class AbstractEntity implements Serializable {
     public String nameKh;
     public String descEn;
     public String descKh;
-    public Date createdDate;
-    public Date updatedDate;
+    public String createdDate;
+    public String updatedDate;
     public boolean status;
 
     public Long getId() {
@@ -58,19 +58,19 @@ public abstract class AbstractEntity implements Serializable {
         this.descKh = descKh;
     }
 
-    public Date getCreatedDate() {
+    public String getCreatedDate() {
         return createdDate;
     }
 
-    public void setCreatedDate(Date createdDate) {
+    public void setCreatedDate(String createdDate) {
         this.createdDate = createdDate;
     }
 
-    public Date getUpdatedDate() {
+    public String getUpdatedDate() {
         return updatedDate;
     }
 
-    public void setUpdatedDate(Date updatedDate) {
+    public void setUpdatedDate(String updatedDate) {
         this.updatedDate = updatedDate;
     }
 
